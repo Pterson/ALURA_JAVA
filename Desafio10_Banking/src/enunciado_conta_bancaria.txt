@@ -1,0 +1,29 @@
+Desafio: Criando um Sistema de Conta Bancária Virtual
+
+Desenvolva um programa em Java que simule um sistema de conta bancária virtual. O sistema deve:
+
+Inicializar os dados do cliente:
+Nome do cliente (ex: Jacqueline Oliveira)
+Tipo de conta (ex: Corrente)
+Saldo inicial (ex: R$ 2500,00)
+
+Apresentar um menu de opções:
+1 - Consultar saldo
+2 - Receber valor
+3 - Transferir valor
+4 - Sair
+
+Implementar as funcionalidades:
+Consultar saldo: Exibir o saldo atual da conta.
+Receber valor: Solicitar ao usuário que informe o valor a ser depositado e atualizar o saldo.
+Transferir valor: Solicitar ao usuário que informe o valor a ser transferido e atualizar o saldo, verificando se há saldo suficiente para a operação.
+Sair: Encerrar o programa.
+
+Tratar entradas inválidas:
+Exibir uma mensagem de erro caso o usuário digite uma opção inválida no menu.
+Exibir uma mensagem de erro caso o usuário tente transferir um valor maior que o saldo disponível.
+Dicas:
+
+Divida o problema em etapas menores e teste cada etapa individualmente.
+Utilize variáveis para armazenar os dados do cliente e o saldo da conta.
+Utilize estruturas de controle (condicionais e loops) para implementar o menu de opções e as funcionalidades.
